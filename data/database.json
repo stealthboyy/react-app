@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "Based!!!", 
+            "body": "lorem Ipsum...", 
+            "author": "Dave",
+            "id": 1 
+        },
+        {
+            "title": "The Concierge of Crimes.", 
+            "body": "lorem Ipsum...", 
+            "author": "Concrete",
+            "id": 2 
+        }
+    ]
+}
