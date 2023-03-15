@@ -1,4 +1,4 @@
-A Typical Reat Application. 
+A Typical React Application. 
 
 This project was bootstrapped with [Create React App].
 
