@@ -19,10 +19,11 @@
 .navbar h1  {
   color: #f1356d;
 }
-
+ 
 .navbar .links {
   margin-left: auto;
 }
+
 
 .navbar a {
   margin-left: 16px;
@@ -32,7 +33,7 @@
 
 .navbar a:hover {
   color: #f1356d;
-}
+} 
 
 .content {
   max-width: 600px;
@@ -67,6 +68,17 @@
 .blog-details div {
   margin: 20px 0;
 }
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+/* create a new blog form */
 
 
 .create {
@@ -103,4 +115,27 @@
   border-radius: 8px;
   cursor: pointer;
 
+}
+
+.not-found {
+  text-align: left;
+}
+
+.not-found h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.not-found p {
+  margin-bottom: 20px;
+  font-weight: 25px;
+}
+
+.not-found button{
+  background-color: black;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 3px;
+  margin: 25px auto;
+  
 }

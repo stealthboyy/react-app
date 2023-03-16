@@ -12,7 +12,7 @@ const Create = () => {
      {
         e.preventDefault();
         const blog = {title, body, author};
-        setIsPending(true)
+        setIsPending(true);
 
         fetch('http://localhost:8000/blogs', {
             method: 'POST',
@@ -37,7 +37,7 @@ const Create = () => {
                 <label>Blog Body:</label>
                 <textarea
                     required 
-                    value={body} 
+                    value={body}
                     onChange = {(e) => setBody(e.target.value)}></textarea>    
                 <label>Blog author:</label>
                 <select 
